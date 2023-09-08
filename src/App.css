@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* Reset de estilos para quitar márgenes y rellenos predeterminados */
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos generales de la página */
+.landing-page {
+  display: flex;
+  background: url("https://img.freepik.com/foto-gratis/al-atardecer-playa-tropical-mar-palmera-coco_74190-1075.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Estilos de la barra lateral (sidebar) */
+.sidebar {
+  background-color: #ffffff;
+  color: #fff;
+  width: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  position: fixed;
+  height: 100vh;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  /* Estilos para el texto del menú */
+  color: #000000;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+.reservar-button {
+  background-color: #764521;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.reservar-button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*esto es un estilo global a todas tus páginas */
+
+.pages {
+  margin-left: 200px;
+  width: 100%;
+}
